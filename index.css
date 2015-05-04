@@ -1,13 +1,10 @@
-#navcontainer
-{
+#navcontainer, .nav {
 font-family: Arial,Sans-Serif;
 margin: 0 auto;
 width: 70%;
-border-bottom: 1px solid #ddd;
+/*border-bottom: 1px solid #ddd;*/
 }
-
-#navlist
-{
+#navlist {
 width: 60%;
 text-align: center;
 margin: 0 auto;
@@ -15,17 +12,13 @@ padding: 0;
 text-indent: 0;
 list-style-type: none;
 }
-
-#navlist li
-{
+#navlist li {
 padding: 0;
 margin: 0;
 text-indent: 0;
 display: inline;
 }
-
-#navlist li a
-{
+#navlist li a {
 letter-spacing: -1px;
 text-decoration: none;
 color: #ccc;
@@ -33,16 +26,43 @@ font-size: 1em;
 padding: 0 2px;
 border-top: .5em solid #eee;
 }
-
-#navlist li a:hover,#navlist a#current
-{
+#navlist li a:hover,#navlist a#current {
 color: #333;
 border-top: none;
 font-size: 1.5em;
 }
+#navlist a#current {
+color: #fc6;
+}
 
-#navlist a#current { color: #fc6; }
-
+#list {
+margin: 0;
+padding: 0 0 20px 10px;
+/*border-bottom: 1px solid #000;*/
+}
+#list ul, #list li {
+margin: 0;
+padding: 0;
+display: inline;
+list-style-type: none;
+}
+#list a:link, #list a:visited {
+float: left;
+line-height: 14px;
+font-weight: bold;
+margin: 0 10px 4px 10px;
+text-decoration: none;
+color: #999;
+}
+#list a:link#current, #list a:visited#current, #list a:hover {
+border-bottom: 4px solid #000;
+padding-bottom: 2px;
+background: transparent;
+color: #000;
+}
+#list a:hover {
+color: #000;
+}
 body {
 	text-align: center;
 }
