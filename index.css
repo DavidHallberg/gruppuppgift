@@ -1,8 +1,8 @@
-#navcontainer, .nav {
+#navcontainer {
 font-family: Arial,Sans-Serif;
 margin: 0 auto;
 width: 70%;
-/*border-bottom: 1px solid #ddd;*/
+border-bottom: 1px solid #ddd;
 }
 #navlist {
 width: 60%;
@@ -35,10 +35,35 @@ font-size: 1.5em;
 color: #fc6;
 }
 
-#list {
+ul#list {
+margin: 0 0 0 30px;
+padding: 0;
+width: 12.5%;
+}
+#list li {
+list-style-type: none;
+background-color: #191970;
+color: #daa520;
+border: .2em solid #daa520;
+font-weight: 600;
+text-align: center;
+padding: .3em;
+margin-bottom: .1em;
+}
+#list li a {
+color: #daa520;
+text-decoration: none;
+display: block;
+}
+#list li a:hover {
+background-color: #faebd7;
+color: #191970;
+}
+
+/*#list {
 margin: 0;
 padding: 0 0 20px 10px;
-/*border-bottom: 1px solid #000;*/
+/*border-bottom: 1px solid #000;*//*
 }
 #list ul, #list li {
 margin: 0;
@@ -62,11 +87,11 @@ color: #000;
 }
 #list a:hover {
 color: #000;
-}
+}*/
 body {
 	text-align: center;
 }
-h1 {
+h1, h2 {
 	font-family: 'Comfortaa', cursive;
 }
 .nyafilmer > .one {
