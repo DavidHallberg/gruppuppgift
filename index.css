@@ -1,3 +1,18 @@
+body
+{
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: url("bilder/");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sida
+{
+	background-color: rgba(100,255,255,0.5);
+}
 #navcontainer
 {
 font-family: Arial,Sans-Serif;
@@ -48,7 +63,15 @@ body {
 }
 h1 {
 	font-family: 'Comfortaa', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
 }
-.nyafilmer > .one {
+.nyabilder article  p{
+	
+	 display:inline-block;
+	 margin: 20px;
 	 
+}
+.nyabilder img {
+border: 1px solid #000;
 }
