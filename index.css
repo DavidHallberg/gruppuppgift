@@ -58,6 +58,41 @@ font-size: 1.5em;
 
 #navlist a#current { color: #fc6; }
 
+#list
+{
+margin: 0;
+padding: 0 0 20px 10px;
+border-bottom: 1px solid #000;
+}
+
+#list ul, #list li
+{
+margin: 0;
+padding: 0;
+display: inline;
+list-style-type: none;
+}
+
+#list a:link, #list a:visited
+{
+float: left;
+line-height: 14px;
+font-weight: bold;
+margin: 0 10px 4px 10px;
+text-decoration: none;
+color: #999;
+}
+
+#list a:link#current, #list a:visited#current, #list a:hover
+{
+border-bottom: 4px solid #000;
+padding-bottom: 2px;
+background: transparent;
+color: #000;
+}
+
+#list a:hover { color: #000; }
+
 body {
 	text-align: center;
 }
@@ -74,4 +109,11 @@ h1 {
 }
 .nyabilder img {
 border: 1px solid #000;
+}
+#action p {
+	display: inline-block;
+	
+}
+#action jpg {
+	border: 1px solid #000;
 }
