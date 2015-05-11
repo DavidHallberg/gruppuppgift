@@ -4,25 +4,31 @@ body
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	background-image: url("bilder/");
+	background-image: url("bakgrund_.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
-
+header {
+ padding-top: 35px;
+}
 .sida
 {
-	background-color: rgba(100,255,255,0.5);
+	background-color: rgba(30,30,30, 0.5);
+	color: white;
+	overflow: auto;
 }
 #navcontainer
 {
+
+
+
 font-family: Arial,Sans-Serif;
 margin: 0 auto;
 width: 70%;
 border-bottom: 1px solid #ddd;
 }
-
-#navlist
-{
+#navlist {
 width: 60%;
 text-align: center;
 margin: 0 auto;
@@ -30,17 +36,13 @@ padding: 0;
 text-indent: 0;
 list-style-type: none;
 }
-
-#navlist li
-{
+#navlist li {
 padding: 0;
 margin: 0;
 text-indent: 0;
 display: inline;
 }
-
-#navlist li a
-{
+#navlist li a {
 letter-spacing: -1px;
 text-decoration: none;
 color: #ccc;
@@ -48,58 +50,54 @@ font-size: 1em;
 padding: 0 2px;
 border-top: .5em solid #eee;
 }
-
-#navlist li a:hover,#navlist a#current
-{
-color: #333;
+#navlist li a:hover,#navlist a#current {
+color: white;
 border-top: none;
 font-size: 1.5em;
 }
+#navlist a#current {
+color: #fc6;
+}
 
-#navlist a#current { color: #fc6; }
+ul#list {
+margin: 0 0 0 30px;
+padding: 0;
+}
+#list li {
+list-style-type: none;
+background-color: #191970;
+color: #daa520;
+border: .2em solid #daa520;
+font-weight: 600;
+text-align: center;
+padding: .3em;
+margin-bottom: .1em;
+}
+#list li a {
+color: #daa520;
+text-decoration: none;
+display: block;
+}
+#list li a:hover {
+background-color: #faebd7;
+color: #191970;
+}
 
+<<<<<<< HEAD
 #list
 {
 margin: 0;
 padding: 0 0 20px 10px;
 border-bottom: 1px solid #000;
 }
-
-#list ul, #list li
-{
-margin: 0;
-padding: 0;
-display: inline;
-list-style-type: none;
-}
-
-#list a:link, #list a:visited
-{
-float: left;
-line-height: 14px;
-font-weight: bold;
-margin: 0 10px 4px 10px;
-text-decoration: none;
-color: #999;
-}
-
-#list a:link#current, #list a:visited#current, #list a:hover
-{
-border-bottom: 4px solid #000;
-padding-bottom: 2px;
-background: transparent;
-color: #000;
-}
-
-#list a:hover { color: #000; }
-
 body {
 	text-align: center;
 }
-h1 {
+h1, h2 {
 	font-family: 'Comfortaa', cursive;
 	margin-top: 0;
 	margin-bottom: 0;
+	color: white;
 }
 .nyabilder article  p{
 	
@@ -110,10 +108,17 @@ h1 {
 .nyabilder img {
 border: 1px solid #000;
 }
-#action p {
-	display: inline-block;
-	
+#genre section {
+	margin-left: 150px;
 }
-#action jpg {
-	border: 1px solid #000;
+#genre .nav {
+	float: left;
+	width: 150px;
+	/*margin-bottom: 1500px;*/
+}
+#genre p {
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
 }
