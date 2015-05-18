@@ -152,6 +152,10 @@ list-style-type: none;
 	color: lightgray;
 	text-decoration:none;
 }
+.blockslider {
+max-width: 300px;
+
+margin: auto;
+}
 
 
->>>>>>> ec9d420b2f760c943e8c4c76bb9c01caa8a420d8
