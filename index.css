@@ -129,3 +129,14 @@ h1, h2 {
 .nyabilder img {
 border: 1px solid #000;
 }
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+	}
+td{
+	background-color: rgba(30,30,30, 0.5);
+	padding: 20px;
+}
+table{
+	margin: auto;
+}
