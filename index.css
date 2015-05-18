@@ -160,4 +160,15 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
 }
+.blockslider {
+max-width: 300px;
+
+margin: auto;
+}
+
+
+=======
+}
+>>>>>>> origin/master
