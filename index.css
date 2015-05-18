@@ -84,7 +84,6 @@ background-color: #faebd7;
 color: #191970;
 }
 
-<<<<<<< HEAD
 #list
 {
 margin: 0;
@@ -109,10 +108,11 @@ h1, h2 {
 .nyabilder img {
 border: 1px solid #000;
 }
-<<<<<<< HEAD
-table, th, td {
+
+th, td {
     border: 1px solid black;
 	text-align: center;
+	max-width: 200px;
 	}
 td{
 	background-color: rgba(30,30,30, 0.5);
@@ -154,4 +154,4 @@ list-style-type: none;
 }
 
 
->>>>>>> ec9d420b2f760c943e8c4c76bb9c01caa8a420d8
+
