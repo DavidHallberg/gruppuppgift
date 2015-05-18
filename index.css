@@ -67,16 +67,16 @@ position: fixed;
 }
 #list li {
 list-style-type: none;
-background-color: #2C4687; /*blå*/
+background-color: #2C4687;
 color: #daa520;
-border: .2em solid #FF6120; /*orange #F05401#BF5A13#8E4C1C#FF6C20#FF7420#FF481A#FF481A#FF5C00#FF6F00#A62D00#FF4500#9D511A#8E4C1C#F06807*/
+border: .2em solid #FF6120;
 font-weight: 600;
 text-align: center;
 padding: 7px 40px;
 margin-bottom: 7px;
 }
 #list li a {
-color: #FF6120; /*#daa520*/
+color: #FF6120;
 text-decoration: none;
 display: block;
 }
@@ -84,10 +84,6 @@ display: block;
 background-color: #faebd7;
 color: #191970;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> c5a29906b94b1d13cf646459c5522c434472ca28
 #list
 {
 margin: 0;
@@ -121,7 +117,6 @@ td{
 table{
 	margin: auto;
 }
-=======
 #genre section {
 	margin-left: 150px;
 }
@@ -136,7 +131,6 @@ table{
 	margin-top: 50px;
 	margin-left: 80px;
 }
-<<<<<<< HEAD
 #genre h1 {
 	margin-bottom: 15px;
 }
@@ -150,7 +144,6 @@ footer {
 	margin: 0 auto;
 	clear: both;
 }
-=======
 .nyabilder a {
 	color: white;
 }
@@ -167,7 +160,3 @@ list-style-type: none;
 	color: lightgray;
 	text-decoration:none;
 }
-
-
-
->>>>>>> c5a29906b94b1d13cf646459c5522c434472ca28
