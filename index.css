@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-body {
-=======
 html,body,.sida {
 height: 100%;
 }
-body
-{
->>>>>>> origin/master
+body {
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 0;
@@ -215,7 +210,6 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
-<<<<<<< HEAD
 .blockslider {
 max-width: 300px;
 }
@@ -223,26 +217,13 @@ max-width: 300px;
 max-width: 300px;
 margin: auto;
 }
-=======
-<<<<<<< HEAD
-
 .blockslider {
 max-width: 300px;
-=======
->>>>>>> origin/master
-
-
-
+}
 .blockslider{
 max-width: 300px;
 margin: auto;
 }
-<<<<<<< HEAD
 table {
 	margin-top: 45px;
 }
-=======
-
-
->>>>>>> origin/master
->>>>>>> 4d7fefb5915dcb6c1fa8343fc84bed7a2c90ac79
