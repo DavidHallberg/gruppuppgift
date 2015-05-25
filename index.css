@@ -113,6 +113,7 @@ th, td {
     border: 1px solid black;
 	text-align: center;
 	max-width: 200px;
+	color: white;
 	}
 td{
 	background-color: rgba(30,30,30, 0.5);
@@ -121,6 +122,7 @@ td{
 table{
 	margin: auto;
 }
+
 #genre section {
 	margin-left: 150px;
 }
@@ -166,8 +168,62 @@ list-style-type: none;
 
 }
 
+.ett{
+	background-image: url(toppbilder/1.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.tva{
+	background-image: url(toppbilder/2.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.tre{
+	background-image: url(toppbilder/3.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.fyra{
+	background-image: url(toppbilder/4.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.fem{
+	background-image: url(toppbilder/5.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.sex{
+	background-image: url(toppbilder/6.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.sju{
+	background-image: url(toppbilder/7.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.atta{
+	background-image: url(toppbilder/8.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.nio{
+	background-image: url(toppbilder/9.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.tio{
+	background-image: url(toppbilder/10.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+
+
 .blockslider{
 max-width: 300px;
 margin: auto;
 }
+
 
