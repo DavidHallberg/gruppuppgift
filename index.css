@@ -1,5 +1,4 @@
-body
-{
+body {
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 0;
@@ -13,17 +12,12 @@ header {
  padding-top: 35px;
  padding-bottom:15px;
 }
-.sida
-{
+.sida {
 	background-color: rgba(30,30,30, 0.5);
 	color: white;
 	overflow: auto;
 }
-#navcontainer
-{
-
-
-
+#navcontainer {
 font-family: Arial,Sans-Serif;
 margin: 0 auto;
 width: 70%;
@@ -118,10 +112,7 @@ td{
 table{
 	margin: auto;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 #genre section {
 	margin-left: 150px;
 }
@@ -217,15 +208,12 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
-=======
+
 .blockslider {
 max-width: 300px;
 
 margin: auto;
 }
-
-
-=======
+table {
+	margin-top: 45px;
 }
->>>>>>> origin/master
->>>>>>> origin/master
