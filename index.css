@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 body {
+=======
+html,body,.sida {
+height: 100%;
+}
+body
+{
+>>>>>>> origin/master
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 0;
@@ -16,6 +24,7 @@ header {
 	background-color: rgba(30,30,30, 0.5);
 	color: white;
 	overflow: auto;
+	
 }
 #navcontainer {
 font-family: Arial,Sans-Serif;
@@ -156,6 +165,10 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 95a534c672d19e8b62248609e1f677511bedcd78
 }
 
 .ett{
@@ -208,12 +221,24 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
+<<<<<<< HEAD
 
 .blockslider {
 max-width: 300px;
+=======
+>>>>>>> origin/master
 
+
+
+.blockslider{
+max-width: 300px;
 margin: auto;
 }
+<<<<<<< HEAD
 table {
 	margin-top: 45px;
 }
+=======
+
+
+>>>>>>> origin/master
