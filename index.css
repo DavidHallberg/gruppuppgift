@@ -122,10 +122,6 @@ td{
 table{
 	margin: auto;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> b4ecef9417def91e32cc77d8cd7d30e12985df1f
 #genre section {
 	margin-left: 150px;
 }
@@ -169,16 +165,7 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 95a534c672d19e8b62248609e1f677511bedcd78
-}
-
->>>>>>> b4ecef9417def91e32cc77d8cd7d30e12985df1f
 .ett{
 	background-image: url(toppbilder/1.png);
 	background-repeat: no-repeat;
@@ -229,21 +216,10 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
-<<<<<<< HEAD
 .blockslider {
 max-width: 300px;
-=======
->>>>>>> b4ecef9417def91e32cc77d8cd7d30e12985df1f
-
-
-
+}
 .blockslider{
 max-width: 300px;
 margin: auto;
-<<<<<<< HEAD
 }
-=======
-}
-
-
->>>>>>> b4ecef9417def91e32cc77d8cd7d30e12985df1f
