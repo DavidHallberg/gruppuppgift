@@ -140,9 +140,12 @@ table{
 	height: 357px;
 }
 footer {
+	
+	
 	margin: 0 auto;
-	padding-top: 25px;
+
 	clear: both;
+
 }
 .nyabilder a {
 	color: white;
@@ -159,6 +162,10 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3d394d12cc586d6115890d2feb8c9f0d7f7697ee
 }
 .ett{
 	background-image: url(toppbilder/1.png);
@@ -214,7 +221,7 @@ list-style-type: none;
 max-width: 300px;
 }
 .blockslider{
-max-width: 300px;
+max-width: 500px;
 margin: auto;
 }
 .blockslider {
