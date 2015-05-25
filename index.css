@@ -7,7 +7,7 @@ body
 	background-image: url("bakgrund_.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+	text-align: center;
 }
 header {
  padding-top: 35px;
@@ -61,21 +61,22 @@ color: #fc6;
 }
 
 ul#list {
-margin: 0 0 0 30px;
+margin: 50px 0 0 30px;
 padding: 0;
+position: fixed;
 }
 #list li {
 list-style-type: none;
-background-color: #191970;
+background-color: #2C4687;
 color: #daa520;
-border: .2em solid #daa520;
+border: .2em solid #FF6120;
 font-weight: 600;
 text-align: center;
-padding: .3em;
-margin-bottom: .1em;
+padding: 7px 40px;
+margin-bottom: 7px;
 }
 #list li a {
-color: #daa520;
+color: #FF6120;
 text-decoration: none;
 display: block;
 }
@@ -83,15 +84,10 @@ display: block;
 background-color: #faebd7;
 color: #191970;
 }
-
 #list
 {
 margin: 0;
 padding: 0 0 20px 10px;
-border-bottom: 1px solid #000;
-}
-body {
-	text-align: center;
 }
 h1, h2 {
 	font-family: 'Comfortaa', cursive;
@@ -122,7 +118,10 @@ td{
 table{
 	margin: auto;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 #genre section {
 	margin-left: 150px;
 }
@@ -131,11 +130,24 @@ table{
 	width: 150px;
 	/*margin-bottom: 1500px;*/
 }
-#genre p {
+#genre > div > section > p {
 	display: inline-block;
 	float: left;
 	margin-top: 50px;
 	margin-left: 80px;
+}
+#genre h1 {
+	margin-bottom: 15px;
+}
+#genre h2 {
+	margin-top: 15px;
+}
+.genre-bild > p {
+	height: 357px;
+}
+footer {
+	margin: 0 auto;
+	clear: both;
 }
 .nyabilder a {
 	color: white;
@@ -152,7 +164,9 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 .ett{
 	background-image: url(toppbilder/1.png);
 	background-repeat: no-repeat;
@@ -203,3 +217,15 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
+=======
+.blockslider {
+max-width: 300px;
+
+margin: auto;
+}
+
+
+=======
+}
+>>>>>>> origin/master
+>>>>>>> origin/master
