@@ -1,6 +1,5 @@
-
 html,body,.sida {
-min-height: 100%;
+min-height: 100vh;
 }
 
 body {
@@ -229,3 +228,14 @@ margin: auto;
 table {
 	margin-top: 45px;
 }
+<<<<<<< HEAD
+#genre .clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+}
+footer p:last-child{
+margin-bottom: 0;
+}
+=======
+>>>>>>> origin/master
