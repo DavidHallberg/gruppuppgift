@@ -1,0 +1,248 @@
+<<<<<<< HEAD
+body {
+=======
+html,body,.sida {
+height: 100%;
+}
+body
+{
+>>>>>>> origin/master
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: url("bakgrund_.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+header {
+ padding-top: 35px;
+ padding-bottom:15px;
+}
+.sida {
+	background-color: rgba(30,30,30, 0.5);
+	color: white;
+	overflow: auto;
+	
+}
+#navcontainer {
+font-family: Arial,Sans-Serif;
+margin: 0 auto;
+width: 70%;
+border-bottom: 1px solid #ddd;
+}
+#navlist {
+width: 60%;
+text-align: center;
+margin: 0 auto;
+padding: 0;
+text-indent: 0;
+list-style-type: none;
+}
+#navlist li {
+padding: 0;
+margin: 0;
+text-indent: 0;
+display: inline;
+}
+#navlist li a {
+letter-spacing: -1px;
+text-decoration: none;
+color: #ccc;
+font-size: 1em;
+padding: 0 2px;
+border-top: .5em solid #eee;
+}
+#navlist li a:hover,#navlist a#current {
+color: white;
+border-top: none;
+font-size: 1.5em;
+}
+#navlist a#current {
+color: #fc6;
+}
+
+ul#list {
+margin: 50px 0 0 30px;
+padding: 0;
+position: fixed;
+}
+#list li {
+list-style-type: none;
+background-color: #2C4687;
+color: #daa520;
+border: .2em solid #FF6120;
+font-weight: 600;
+text-align: center;
+padding: 7px 40px;
+margin-bottom: 7px;
+}
+#list li a {
+color: #FF6120;
+text-decoration: none;
+display: block;
+}
+#list li a:hover {
+background-color: #faebd7;
+color: #191970;
+}
+#list
+{
+margin: 0;
+padding: 0 0 20px 10px;
+}
+h1, h2 {
+	font-family: 'Comfortaa', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+}
+.nyabilder article  p{
+	
+	 display:inline-block;
+	 margin: 20px;
+	 
+}
+.nyabilder img {
+border: 1px solid #000;
+}
+
+th, td {
+    border: 1px solid black;
+	text-align: center;
+	max-width: 200px;
+	color: white;
+	}
+td{
+	background-color: rgba(30,30,30, 0.5);
+	padding: 20px;
+}
+table{
+	margin: auto;
+}
+#genre section {
+	margin-left: 150px;
+}
+#genre .nav {
+	float: left;
+	width: 150px;
+	/*margin-bottom: 1500px;*/
+}
+#genre > div > section > p {
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+#genre h1 {
+	margin-bottom: 15px;
+}
+#genre h2 {
+	margin-top: 15px;
+}
+.genre-bild > p {
+	height: 357px;
+}
+footer {
+	margin: 0 auto;
+	padding-top: 25px;
+	clear: both;
+}
+.nyabilder a {
+	color: white;
+}
+
+#navstart{
+	border: 3px solid black;
+}
+#navstart li {
+padding: 10px;
+border: 3px solid black;
+list-style-type: none;
+}
+#navstart a {
+	color: lightgray;
+	text-decoration:none;
+}
+.ett{
+	background-image: url(toppbilder/1.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.tva{
+	background-image: url(toppbilder/2.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.tre{
+	background-image: url(toppbilder/3.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.fyra{
+	background-image: url(toppbilder/4.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.fem{
+	background-image: url(toppbilder/5.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.sex{
+	background-image: url(toppbilder/6.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.sju{
+	background-image: url(toppbilder/7.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.atta{
+	background-image: url(toppbilder/8.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.nio{
+	background-image: url(toppbilder/9.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.tio{
+	background-image: url(toppbilder/10.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+<<<<<<< HEAD
+.blockslider {
+max-width: 300px;
+}
+.blockslider{
+max-width: 300px;
+margin: auto;
+}
+=======
+<<<<<<< HEAD
+
+.blockslider {
+max-width: 300px;
+=======
+>>>>>>> origin/master
+
+
+
+.blockslider{
+max-width: 300px;
+margin: auto;
+}
+<<<<<<< HEAD
+table {
+	margin-top: 45px;
+}
+=======
+
+
+>>>>>>> origin/master
+>>>>>>> 4d7fefb5915dcb6c1fa8343fc84bed7a2c90ac79
