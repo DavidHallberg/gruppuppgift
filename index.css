@@ -1,6 +1,8 @@
+
 html,body,.sida {
 min-height: 100%;
 }
+
 body {
 	max-width: 1200px;
 	margin: auto;
@@ -163,6 +165,10 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
+=======
+
+>>>>>>> a77c45e1b54402a9389ebfd06a4827f5aa29a54a
 }
 .ett{
 	background-image: url(toppbilder/1.png);
@@ -215,19 +221,11 @@ list-style-type: none;
 	background-position: 50%;
 }
 .blockslider {
-max-width: 300px;
-}
-.blockslider{
 max-width: 500px;
 margin: auto;
 }
-.blockslider {
-max-width: 300px;
-}
-.blockslider{
-max-width: 300px;
-margin: auto;
-}
+
+
 table {
 	margin-top: 45px;
 }
