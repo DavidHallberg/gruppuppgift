@@ -10,7 +10,28 @@
 	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(window).load(function() {
-			$('#slider').nivoSlider();
+			$('#slider').nivoSlider({
+    effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
+    slices: 15,                     // For slice animations
+    boxCols: 8,                     // For box animations
+    boxRows: 4,                     // For box animations
+    animSpeed: 500,                 // Slide transition speed
+    pauseTime: 5000,                 // How long each slide will show
+    startSlide: 0,                     // Set starting Slide (0 index)
+    directionNav: true,             // Next & Prev navigation
+    controlNav: false,                 // 1,2,3... navigation
+    controlNavThumbs: false,         // Use thumbnails for Control Nav
+    pauseOnHover: true,             // Stop animation while hovering
+    manualAdvance: false,             // Force manual transitions
+    prevText: '',                 // Prev directionNav text
+    nextText: '',                 // Next directionNav text
+    randomStart: false,             // Start on a random slide
+    beforeChange: function(){},     // Triggers before a slide transition
+    afterChange: function(){},         // Triggers after a slide transition
+    slideshowEnd: function(){},     // Triggers after all slides have been shown
+    lastSlide: function(){},         // Triggers when last slide is shown
+    afterLoad: function(){}         // Triggers when slider has loaded
+});
 		});
 	</script>
 	
@@ -19,24 +40,32 @@
 	<div class="sida">
 	<header>
 		<img src="Logo_stor.png" alt="Bild på logo">
-		<h1>Startsida</h1>
+		
 	</header>
 	
-	<div id="navcontainer">
+	<div class="nav">
+				<ul id="list">
+					<li id="active"><a href="index.html" id="current">Startsida</a></li>
+					<li><a href="genre.html">Genre</a></li>
+					<li><a href="topplista.html">Topplista</a></li>
+					<li><a href="nyafilmer.html">Nya Filmer</a></li>
+				</ul>
+	</div>
+	<!--<div id="navcontainer">
 		<ul id="navstart">
 			<li id="active"><a href="index.html" id="current">Startsida</a></li>
 			<li><a href="genre.html">Genre</a></li>
 			<li><a href="topplista.html">Topplista</a></li>
 			<li><a href="nyafilmer.html">Nya Filmer</a></li>
 		</ul>
-	</div>
+	</div>	-->
 	
 		<div class="blockslider">
 		<div id="slider" class="nivoSlider">
-    <img src="slider/avengers.jpg" alt="bild på film" />
-    <img src="slider/kingsman.jpg" alt="bild på film" title="#htmlcaption" />
-    <img src="slider/birdemic.jpg" alt="bild på film" title="This is an example of a caption" />
-    <img src="slider/groundhog.jpg" alt="bild på film" />
+    <a href="nyafilmer.html"><img src="slider/avengers.jpg" alt="bild på film" title="Månadens film" /></a>
+    <a href="topplista.html"><img src="slider/kingsman.jpg" alt="bild på film" title="Topplistans #1" /><a>
+    <img src="slider/birdemic.jpg" alt="bild på film" title="Årets sämsta film" />
+    <img src="slider/groundhog.jpg" alt="bild på film" title="Veckans filmtips" />
 	</div>
 	<div id="htmlcaption" class="nivo-html-caption">
 		<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
@@ -47,16 +76,14 @@
 
 
 	<footer>
-<<<<<<< HEAD
+
 		<p>
-			&copy; Filip, David H och Paulina
+			<small>&copy; Filip, David H och Paulina</small>
 		</p>
 		<p>
 			<img class="logo" alt="Startsidan" src="Logo.png" /></a>
 		</p>
-=======
-	<p>sdjpajjsda</p>
->>>>>>> 802531bfa0b50994e9af6b7b127b36342a3b672f
+
 	</footer>
 	
 	</div>

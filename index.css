@@ -1,8 +1,7 @@
 html,body,.sida {
-height: 100%;
+min-height: 100%;
 }
-body
-{
+body {
 	max-width: 1200px;
 	margin: auto;
 	margin-top: 0;
@@ -16,18 +15,13 @@ header {
  padding-top: 35px;
  padding-bottom:15px;
 }
-.sida
-{
+.sida {
 	background-color: rgba(30,30,30, 0.5);
 	color: white;
-	overflow: auto;
+	/*overflow: auto;*/
 	
 }
-#navcontainer
-{
-
-
-
+#navcontainer {
 font-family: Arial,Sans-Serif;
 margin: 0 auto;
 width: 70%;
@@ -122,7 +116,6 @@ td{
 table{
 	margin: auto;
 }
-
 #genre section {
 	margin-left: 150px;
 }
@@ -169,9 +162,11 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d394d12cc586d6115890d2feb8c9f0d7f7697ee
 }
-
 .ett{
 	background-image: url(toppbilder/1.png);
 	background-repeat: no-repeat;
@@ -222,12 +217,25 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
-
-
-
+.blockslider {
+max-width: 300px;
+}
 .blockslider{
 max-width: 500px;
 margin: auto;
 }
-
-
+.blockslider {
+max-width: 300px;
+}
+.blockslider{
+max-width: 300px;
+margin: auto;
+}
+table {
+	margin-top: 45px;
+}
+#genre .clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+}
