@@ -164,10 +164,7 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
-<<<<<<< HEAD
 
-=======
->>>>>>> 3d394d12cc586d6115890d2feb8c9f0d7f7697ee
 }
 .ett{
 	background-image: url(toppbilder/1.png);
@@ -220,19 +217,11 @@ list-style-type: none;
 	background-position: 50%;
 }
 .blockslider {
-max-width: 300px;
-}
-.blockslider{
 max-width: 500px;
 margin: auto;
 }
-.blockslider {
-max-width: 300px;
-}
-.blockslider{
-max-width: 300px;
-margin: auto;
-}
+
+
 table {
 	margin-top: 45px;
 }
