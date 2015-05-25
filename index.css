@@ -118,10 +118,6 @@ td{
 table{
 	margin: auto;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 #genre section {
 	margin-left: 150px;
 }
@@ -165,9 +161,7 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
-<<<<<<< HEAD
 }
-<<<<<<< HEAD
 .ett{
 	background-image: url(toppbilder/1.png);
 	background-repeat: no-repeat;
@@ -218,15 +212,8 @@ list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
-=======
 .blockslider {
 max-width: 300px;
 
 margin: auto;
 }
-
-
-=======
-}
->>>>>>> origin/master
->>>>>>> origin/master
