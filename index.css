@@ -148,6 +148,7 @@ table{
 }
 footer {
 	margin: 0 auto;
+	padding-top: 25px;
 	clear: both;
 }
 .nyabilder a {
@@ -165,7 +166,10 @@ list-style-type: none;
 #navstart a {
 	color: lightgray;
 	text-decoration:none;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 95a534c672d19e8b62248609e1f677511bedcd78
 }
 
 .ett{
